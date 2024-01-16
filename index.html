@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+
+
+          <a class="navbar-brand d-flex position-relative" href="#">
+            <img src="imgs/logo.png" class="logo" alt="logo">
+            <div class="ms-3">
+                <h1 class="h1">Weather</h1>
+                <small class="small">tagline goes here</small>
+            </div>
+          </a>
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link border border-2 rounded-3 me-2 active home" aria-current="page" href="#">Home</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link me-3 links" aria-current="page" href="#">News</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link me-3 links" aria-current="page" href="#">Live cameras</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link me-3 links" aria-current="page" href="#">Photos</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link links" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <section class="bg-info groub d-flex justify-content-center align-items-center">
+            <div class="container">
+              <div class="form">
+                <input type="search" class="form-control rounded-pill" placeholder="Find your location..." id="search">
+              <button type="button" class="btn btn-primary" value="find" id="submit">find</button>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+       <section class="header">
+        <div class="container">
+          <div class="row pt-5" id="showData">
+
+           <!-- <div class="col-md-4 groub1">
+              <div class="forecast-container title">
+                <div class="today forecast">
+                  <div class="forecast-header d-flex justify-content-between">
+                    <div class="day">Sunday</div>
+                    <div class="date">14January</div>
+                  </div>
+                </div>
+              </div>
+              <div class="forecast-content p-3">
+                <div class="location">Cairo</div>
+                <div class="degree">
+                  <div class="forecast-icon d-flex align-items-center justify-content-center">
+                    <div class="num">17<span>o</span>C</div>
+                    <img src="imgs/113.webp" class="ms-3 mt-3" alt="img">
+                  </div>
+                  <div class="custom">Clear</div>
+                  <span>
+                    <img src="imgs/icon-umberella.png" alt="">
+                    20%
+                  </span>
+                  <span>
+                    <img src="imgs/icon-wind.png" alt="">
+                    18km/h
+                  </span>
+                  <span>
+                    <img src="imgs/icon-compass.png" alt="">
+                    East
+                  </span>
+                </div>
+              </div>
+            </div> 
+  
+            <div class="col-md-4 bg-danger groub2">
+              <div class="forecast">
+                <div class="forecast-header">
+                  <div class="day text-center">Monday</div>
+                </div>
+                <div class="forecast-content d-flex flex-column text-center">
+                  <div class="forecast-icon">
+                    <img src="imgs/113 (1).webp" class="" alt="img">
+                  </div>
+                  <div class="degree text-white">18.6 <span>o</span>C</div>
+                  <small>11.5 <span>o</span></small>
+                  <div class="custom">Suny</div>
+                </div>
+              </div>
+            </div> 
+            
+            <div class="col-md-4 bg-danger groub3">
+              <div class="forecast">
+                <div class="forecast-header">
+                  <div class="day text-center">Tuesday</div>
+                </div>
+                <div class="forecast-content d-flex flex-column  text-center">
+                  <div class="forecast-icon">
+                    <img src="imgs/113 (1).webp" alt="img">
+                  </div>
+                  <div class="degree text-white">19 <span>o</span>C</div>
+                  <small>11.6o<span>o</span></small>
+                  <div class="custom">Suny</div>
+                </div>
+              </div>
+            </div> -->
+            
+          </div>
+         </div>
+       </section>
+        
+      
+
+       <div class="footer">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md-8">
+              <form action="" class="">
+                <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+                <button type="submit" value="Subscribe" class="btn btn-primary" name="" id="">Subscribe</button>
+              </form>
+            </div>
+
+            <div class="col-md-4 text-center">
+              <div class="icon">
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="">
+                  <i class="fa-brands fa-google"></i>
+                </a>
+
+                <a href="">
+                  <i class="fa-brands fa-pinterest"></i>
+                </a>
+              </div>
+            </div>
+            <p class="text-white">
+   
+              Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+          </div>
+        </div>
+       </div>
+
+
+
+
+
+
+    <!-- main js -->
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+
+*{
+    text-decoration: none !important;
+}
+
+.logo{
+    width: 5rem;
+    height: 3.125rem;
+    position: absolute;
+    top: 25%;
+    right: 100%;
+}
+
+.h1{
+    font-size: 1.5625rem;
+}
+
+.small{
+    font-size: .625rem;
+}
+
+.home{
+    color: #00798A !important;
+    border-color: #00798A !important;
+    border-radius: 30px !important;
+}
+.home:hover{
+    color: #00798A !important;
+}
+
+.links{
+    height: fit-content;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 50px;
+    transition: all .3s;
+}
+
+.links:hover{
+    height: fit-content;
+    border: 2px solid #00798A;
+    color: #00798A;
+    border-radius: 50px;
+}
+
+
+.form input{
+    background-color: #1E202B !important;
+    position: relative;
+    height: 50px;
+    color: white !important;
+}
+
+.form input::placeholder{
+    color: white;
+}
+
+.form button{
+    position: absolute;
+    top: 45%;
+    left:85%;
+    transform: translate(0 , 5%);
+}
+
+
+
+
+
+.groub{
+    height: 400px;
+    background-image: url("../imgs/banner.png");
+    background-size: 100% 100%;
+}
+
+.header{
+    height: 200px;
+    background-color: #1E202B;
+}
+
+.header .container{
+    position: absolute;
+    top: 60%;
+    left: 100px;
+}
+
+.groub1{
+    background-color: #323544 !important;
+    color: white;
+}
+
+.groub1 .title{
+    background-color: #2D303D;
+}
+
+.forecast-header .day , .date{
+    color: #BFC1C4;
+}
+
+
+.forecast-content .location{
+    color: #BFC1C4;
+}
+
+.forecast-content .degree .num{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.forecast-content .num span{
+    color: white;
+}
+
+.forecast-content .degree .custom{
+    color: #159AD8;
+}
+
+.groub2 .forecast .forecast-header .day{
+    background-color: #222530;
+}
+
+.groub2 .forecast .degree{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.forecast .forecast-content small{
+    color: #BFC1C4;
+}
+
+.forecast .forecast-content .custom{
+    color: #159AD8;
+}
+
+
+.groub2{
+    background-color: #262936 !important;
+    color: white;
+}
+
+.groub3 .forecast .forecast-header .day{
+    background-color: #222530;
+}
+
+.groub3{
+    background-color: #323544 !important;
+    color: white;
+}
+
+.groub3 .forecast .degree{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.footer{
+    height: 200px;
+    background-color: #262936;
+}
+
+.footer a{
+    color: #0977A6;
+    transition: all .0s;
+}
+
+.footer a i{
+    margin-top: 20px;
+    background-color: #1e202b !important;
+    padding: 10px;
+    border: 2px solid #1e202b51;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.footer a i:hover{
+    background-color: #0977A6 !important;
+}
+
+form input{
+    background-color: #1E202B !important;
+    height: 50px; 
+    position: relative;
+    color: white !important;
+}
+
+form input::placeholder{
+    color: white !important;
+}
+
+form button{
+    position: absolute;
+    top: 123%;
+    left: 55%;
+}
